@@ -1,8 +1,8 @@
 .container {
-    margin-top: 10vh;
+    margin-top: 6vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly; 
+    justify-content:space-around; 
 }
 .homeContainer {
     display: flex;
@@ -11,16 +11,16 @@
     flex-direction: column;
 }
 .homeContainer>h1 , .homeContainer>p{
-    font-size: 2.2em;
-    margin: 20px ;
+    font-size: 2.4em;
+    margin: 10px ;
 }
 .btn{
     padding: 1em 5.5em;
-    margin: 20px;
-    background-color: rgb(255, 146, 146);
+    margin: 10px;
+    background-color: rgb(240, 38, 38);
     color: white;
     border-radius: 10px;
 }
 .btn:hover {
-    background-color: rgba(255, 146, 146, 0.925);
+    background-color: rgba(240, 38, 38, 0.856);
 }
