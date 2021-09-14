@@ -11,7 +11,7 @@ export default function Home({data}) {
     <Layout>
       <div className={styles.container}>
       <div className={styles.homeContainer}>
-        <h1>Home</h1>
+        <h1>Home !</h1>
         <p>this is home page</p>
         <Link to="/projects" className={styles.btn}>My Portfolio Projects</Link>
       </div>
