@@ -1,0 +1,36 @@
+.portofolio {
+    text-align: center;
+    margin-top: 10vh;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cardProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    border: 1px solid;
+    transition: 0.5s;
+}
+
+.cardProject>a{
+    font-size: 1.2em;
+}
+.cardProject>p{
+    font-size: 0.8em;
+    color: #ccc;
+}
+.cardProject>a:hover{
+    color: rgb(28, 30, 36);
+}
+.cardProject:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}

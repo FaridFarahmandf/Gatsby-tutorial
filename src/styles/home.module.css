@@ -1,0 +1,26 @@
+.container {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeContainer>h1 , .homeContainer>p{
+    font-size: 2.2em;
+    margin: 20px ;
+}
+.btn{
+    padding: 1em 5.5em;
+    margin: 20px;
+    background-color: rgb(255, 146, 146);
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: rgba(255, 146, 146, 0.925);
+}

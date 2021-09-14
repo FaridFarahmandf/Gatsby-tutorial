@@ -1,0 +1,14 @@
+.detailsContainer{
+    width: 80%;
+    margin: 10px auto;
+}
+.detailsContainer>h3,.detailsContainer>h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+.htmlPart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
