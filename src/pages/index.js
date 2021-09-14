@@ -13,7 +13,7 @@ export default function Home({data}) {
       <div className={styles.homeContainer}>
         <h1>Home</h1>
         <p>this is home page</p>
-        <Link to="/products" className={styles.btn}>My Portfolio Projects</Link>
+        <Link to="/projects" className={styles.btn}>My Portfolio Projects</Link>
       </div>
       <GatsbyImage image={image} alt="banner" />
       <div>
